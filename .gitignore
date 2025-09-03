@@ -2,6 +2,10 @@
 /server/dist
 /server/node_modules
 /server/build
+# Keep environment variables out of version control
+/server/.env
+/server/generated/prisma
+
 
 # Compiled client output
 /client/dist
