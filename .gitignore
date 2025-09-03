@@ -1,7 +1,16 @@
-# backend output
+# Compiled backend output
 /server/dist
 /server/node_modules
 /server/build
+
+# Compiled client output
+/client/dist
+/client/tmp
+/client/out-tsc
+/client/bazel-out
+/client/node_modules
+/clientnpm-debug.log
+/clientyarn-error.log
 
 # Logs
 /serverlogs
@@ -41,6 +50,15 @@ lerna-debug.log*
 .env.test.local
 .env.production.local
 .env.local
+
+# Miscellaneous
+/client/.angular/cache
+/client.sass-cache/
+/client/connect.lock
+/client/coverage
+/client/libpeerconnection.log
+/clienttestem.log
+/client/typings
 
 # temp directory
 .temp
